@@ -4,7 +4,7 @@ class Task11_140 {
         final int COUNT = 28;
         int[] a = new int[COUNT];
  
-        System.out.println("Ср дневные температуры за февраль:");
+        System.out.println("РЎСЂ РґРЅРµРІРЅС‹Рµ С‚РµРјРїРµСЂР°С‚СѓСЂС‹ Р·Р° С„РµРІСЂР°Р»СЊ:");
         for (int i = 0; i < COUNT; i++) {
             a[i] = (int) (-Math.random() * 55);
             System.out.printf("%d\t", a[i]);
@@ -27,6 +27,6 @@ class Task11_140 {
             }
         }
  
-        System.out.printf("Даты двух самых холодных дней: %d (t = %d°C), %d (t = %d°C)", ind1 + 1, min1, ind2 + 1, min2);
+        System.out.printf("Р”Р°С‚С‹ РґРІСѓС… СЃР°РјС‹С… С…РѕР»РѕРґРЅС‹С… РґРЅРµР№: %d (t = %dВ°C), %d (t = %dВ°C)", ind1 + 1, min1, ind2 + 1, min2);
     }
 }
